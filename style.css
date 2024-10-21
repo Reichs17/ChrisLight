@@ -49,7 +49,7 @@ h2 {
 @media only screen and (max-width: 600px) {
     body {
         padding: 5px;
-        background-size: 600px;
+        background-size: 100%;
         background-repeat: no-repeat;
     }
     
