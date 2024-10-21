@@ -6,7 +6,9 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('hand.jpg');
+    background-color: black;
+    background-image: url('sal.jpg');
+    background-size: 1920px 1080px;
     padding: 10px;
 }
 
@@ -44,9 +46,12 @@ h2 {
     background-color: #eee;
 }
 
+/* Layout para dispositivos móveis */
 @media only screen and (max-width: 600px) {
     body {
         padding: 5px;
+        background-size: 600px;
+        background-repeat: no-repeat;
     }
     
     .container {
