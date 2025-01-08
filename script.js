@@ -13,3 +13,6 @@ searchBar.addEventListener('keyup', (e) => {
         }
     });
 });
+ document.getElementById("redirecionar").addEventListener("click", function() {
+    window.location.href = "manobra.htm";
+ });
